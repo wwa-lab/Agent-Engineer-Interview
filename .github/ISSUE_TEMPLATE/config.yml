@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guide
+    url: https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-open-source
+    about: Read the general contribution guidance before opening an issue.

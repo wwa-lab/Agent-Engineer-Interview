@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local secrets and reports
+.env
+.env.*
+!.env.example
+coverage.xml
+htmlcov/
+
+# Local candidate materials — do not commit personal interview notes
+mock-interviews/_private/
+
+# Build artifacts
+dist/
+build/

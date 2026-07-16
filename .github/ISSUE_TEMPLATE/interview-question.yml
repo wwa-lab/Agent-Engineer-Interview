@@ -1,0 +1,29 @@
+name: Interview question
+description: Propose an original interview prompt or anonymized theme.
+title: "question: "
+labels: ["question", "content"]
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Beginner
+        - Intermediate
+        - Senior
+        - Staff
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and expected discussion
+      description: Do not include confidential interview material or personal information.
+    validations:
+      required: true

@@ -1,0 +1,24 @@
+name: Content request
+description: Suggest a topic, roadmap improvement, or missing explanation.
+title: "content: "
+labels: ["content"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+    validations:
+      required: true
+  - type: textarea
+    id: learner
+    attributes:
+      label: Who would this help?
+      description: Explain the interview or engineering gap.
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Suggested scope
+    validations:
+      required: true

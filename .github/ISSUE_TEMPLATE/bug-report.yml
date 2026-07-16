@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a broken link, incorrect example, or failing challenge.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Give the file path or URL.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      placeholder: Include the expected and observed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction or source
+      description: Include a minimal reproduction or authoritative reference.
+    validations:
+      required: true
