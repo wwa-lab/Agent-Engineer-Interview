@@ -20,7 +20,6 @@ coverage.xml
 htmlcov/
 
 # Local candidate materials — do not commit personal interview notes
-mock-interviews/_private/
 
 # Build artifacts
 dist/
